@@ -1,0 +1,236 @@
+.carousel-inner img {
+    /* make all photos black and white */
+    width: 100%;
+    /* Set width to 100% */
+    margin: auto;
+}
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color: #008000 !important;
+}
+.lis{
+    margin-top: 10px;
+}
+.navbar li a
+        {   font-family:sans-serif ;
+            font-size: 18px;
+            color: #121111 !important;
+            text-align: center;
+        }
+.bg{
+    background-image: url(img/background.png);
+}
+.bg li{
+    font-size: 15px;
+}
+     /* Thiết lập CSS cho tiêu đề chính */
+.content h1 {
+            font-size: 24px;
+            text-align: center;
+            color: #0f0e0e; /* Màu chữ cho tiêu đề chính */
+        }
+        
+        /* Thiết lập CSS cho các đoạn văn bản */
+        .content p {
+            font-size: 16px;
+            line-height: 1.5;
+            color: #131313; /* Màu chữ cho đoạn văn bản */
+        }
+        
+        /* Thiết lập CSS cho tiêu đề phụ */
+        .content h2 {
+            font-size: 20px;
+            color: #101010; /* Màu chữ cho tiêu đề phụ */
+        }
+.content {
+
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7; /* Màu nền cho nội dung */
+    border: 1px solid #ccc; /* Viền xung quanh nội dung */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+}
+
+/* Thiết lập CSS cho phần tư vấn môi trường */
+
+.giaiphaps {
+    max-width: 1050px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f7f7f7; /* Màu nền cho nội dung */
+    border: 1px solid #ccc; /* Viền xung quanh nội dung */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+.giaiphaps h1{
+    text-align: center; 
+    width: 100%;    
+}
+.giaiphaps p {
+    margin-left: 20px ;
+}
+.giaiphap li {
+    text-align: left;
+}
+
+/* Định dạng mỗi giải pháp */
+.giaiphap {
+    width: 50%; /* Đảm bảo 3 cột trên mỗi dòng */
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.giaiphap p {
+    font-size: 25px;
+}
+/* Định dạng hình ảnh */
+.giaiphap img {
+    max-width: 100%;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+/* Định dạng tiêu đề và nội dung */
+
+.giaiphap h2 {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.giaiphap p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* Định dạng nội dung giải pháp */
+.solutions {
+    max-width: 1050px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #f7f7f7; /* Màu nền cho nội dung */
+    border: 1px solid #ccc; /* Viền xung quanh nội dung */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+}
+.solutions h1{
+    text-align: center; 
+    width: 100%; 
+
+}
+
+.solutions li{
+    text-align: left;
+    margin-left: 10px;
+    
+}
+.button span {
+    line-height: 1.6;
+    color: #008000;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    letter-spacing: .03em;
+    cursor: pointer;
+    font-weight: bolder;
+    text-rendering: optimizeLegibility;
+    font-family: "Roboto", sans-serif;
+}
+
+/* Định dạng mỗi giải pháp */
+.solution {
+    width: 50%; /* Đảm bảo 3 cột trên mỗi dòng */
+    max-width: 1050px;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+/* Định dạng hình ảnh */
+.solution img {
+    max-width: 100%;
+    height: 255px;
+    margin-bottom: 10px;
+}
+
+/* Định dạng tiêu đề và nội dung */
+.solution h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.solution p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+.contact {
+    max-width: 1050px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    justify-content: center; /* Căn giữa theo chiều ngang. */
+    align-items: center; /* Căn giữa theo chiều dọc. */
+    background-color: #f7f7f7; /* Màu nền cho nội dung */
+    border: 1px solid #ccc; /* Viền xung quanh nội dung */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Hiệu ứng bóng đổ */
+    background-image: url(img/background.png);
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row; /* Mặc định, flex container sẽ hiển thị các phần tử con theo chiều dọc. */
+    align-items: center; /* Căn giữa theo chiều dọc. */
+}
+.contacts div {
+    margin-right: 30px; /* Tạo khoảng cách giữa các thông tin liên hệ. */
+}
+@media screen and (max-width: 768px) {
+    .carousel-inner img{
+        margin-top: 35px;
+    }
+    .giaiphaps h1{
+        font-size: 24px;
+    }
+    .giaiphaps p {
+    
+      margin-left: 10px;
+      font-size: 16px;
+    }
+    .giaiphap{
+        padding: 1px;
+    }
+    .giaiphap p {
+        margin: 0;
+    }
+    .giaiphap img{
+        width: 200px;
+        height: 200px;
+       
+    }
+    .contacts {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact h3{
+        margin-left: 50px;
+    }
+    .contact p {
+        margin-left: 10px;
+    }
+
+    .map{
+        position: relative;
+        height: 0;
+    }
+    .map  iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+       }
+    
+    
+
+}
+   
